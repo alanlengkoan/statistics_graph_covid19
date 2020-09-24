@@ -5,7 +5,7 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="17"
 9        android:targetSdkVersion="29" />
 10    <!--
 11         Flutter needs it to communicate with the running application
@@ -94,6 +94,27 @@
 67-->/home/al/Project/Flutter/statistics_graph_covid19/android/app/src/main/AndroidManifest.xml:44:13-44
 68            android:value="2" />
 68-->/home/al/Project/Flutter/statistics_graph_covid19/android/app/src/main/AndroidManifest.xml:45:13-30
-69    </application>
-70
-71</manifest>
+69
+70        <activity
+70-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:47
+71            android:name="com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity"
+71-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-102
+72            android:configChanges="orientation|screenSize"
+72-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-59
+73            android:theme="@style/AppTheme" />
+73-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-44
+74        <activity
+74-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:55
+75            android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity"
+75-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-110
+76            android:configChanges="orientation|screenSize"
+76-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-59
+77            android:theme="@style/ThemeTransparent" />
+77-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-52
+78
+79        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver" />
+79-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-118
+79-->[:flutter_inappwebview] /home/al/Project/Flutter/statistics_graph_covid19/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:17:19-115
+80    </application>
+81
+82</manifest>
