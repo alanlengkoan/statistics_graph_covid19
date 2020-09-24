@@ -1,4 +1,4 @@
-#Wed Sep 16 23:10:47 WITA 2020
-base.0=/home/al/Project/Flutter/learn_app/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Thu Sep 24 15:33:53 WITA 2020
+base.0=/home/al/Project/Flutter/statistics_graph_covid19/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

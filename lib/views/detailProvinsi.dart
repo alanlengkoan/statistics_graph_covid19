@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart';
-import 'package:learn_app/models/getApiProvinsiDetail.dart';
+import 'package:statistics_graph_covid19/models/getApiProvinsiDetail.dart';
 
 class DetailProvinsi extends StatefulWidget {
   final String provinsi;

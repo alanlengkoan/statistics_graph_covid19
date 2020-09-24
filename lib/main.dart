@@ -1,4 +1,4 @@
-import 'package:learn_app/views/home.dart';
+import 'package:statistics_graph_covid19/views/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {

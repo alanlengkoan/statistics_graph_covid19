@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
-import 'package:learn_app/models/getApiProvinsi.dart';
-import 'package:learn_app/views/detailProvinsi.dart';
+import 'package:statistics_graph_covid19/models/getApiProvinsi.dart';
+import 'package:statistics_graph_covid19/views/detailProvinsi.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
